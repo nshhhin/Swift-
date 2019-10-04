@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Sample
 //
-//  Created by 新納真次郎 on 2019/09/23.
+//  Created by 新納真次郎 on 2019/10/04.
 //  Copyright © 2019 新納真次郎. All rights reserved.
 //
 
