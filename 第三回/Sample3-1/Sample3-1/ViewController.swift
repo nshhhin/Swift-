@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: UITableViewDelegate {
-    
+
 }
 
 extension ViewController: UITableViewDataSource {
@@ -41,7 +41,6 @@ extension ViewController: UITableViewDataSource {
     }
        
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell")!
         cell.textLabel?.text = echoHoge(count: indexPath.row)
         return cell
