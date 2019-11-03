@@ -6,7 +6,6 @@ target 'Sample4-1' do
   use_frameworks!
 
   # Pods for Sample4-1
-  pod 'Alamofire'
-  pod 'SwiftyJSON'
+  pod 'lottie-ios'
 
 end

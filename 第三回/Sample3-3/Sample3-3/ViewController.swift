@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     }
     
     func initializeCollectionV(){
-            collectionV.delegate = self
-            collectionV.dataSource = self
+        collectionV.delegate = self
+        collectionV.dataSource = self
     }
 
 }
@@ -34,10 +34,9 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath) as! CustomCell
         cell.backgroundColor = .getRandomColor()
         return cell
     }
-    
     
 }

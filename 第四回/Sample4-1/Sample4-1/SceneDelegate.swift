@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Sample4-1
 //
-//  Created by 新納真次郎 on 2019/10/24.
+//  Created by 新納真次郎 on 2019/11/03.
 //  Copyright © 2019 新納真次郎. All rights reserved.
 //
 
